@@ -117,7 +117,7 @@ public class TC001 extends Base{
 			test.log(Status.FAIL, "Test Case Failed is: "+ result.getThrowable());
 			takePicture(result.getName());
 		} else if(result.getStatus() == ITestResult.SUCCESS){
-			test.log(Status.PASS, "Test Case Passed is: "+ result.getName());
+			test.log(Status.PASS, "Test Case Passed are: "+ result.getName());
 		}
 	}
 
